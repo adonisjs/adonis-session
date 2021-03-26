@@ -31,9 +31,11 @@ test.group('Middleware', (group) => {
       class RedisFactory {
         expire () {
         }
+
         setex (sessionId, ttl, values) {
           sessionValues = values
         }
+
         get () {
           return sessionValues
         }

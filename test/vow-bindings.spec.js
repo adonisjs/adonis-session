@@ -223,7 +223,7 @@ test.group('Vow response', () => {
     try {
       res.session.assertError('username', 'bar')
     } catch ({ message }) {
-      assert.equal(message, `expected 'foo' to deeply equal 'bar'`)
+      assert.equal(message, 'expected \'foo\' to deeply equal \'bar\'')
     }
   })
 
@@ -242,7 +242,7 @@ test.group('Vow response', () => {
     try {
       res.session.assertValue('username', 'nikk')
     } catch ({ message }) {
-      assert.equal(message, `expected 'virk' to deeply equal 'nikk'`)
+      assert.equal(message, 'expected \'virk\' to deeply equal \'nikk\'')
     }
   })
 
