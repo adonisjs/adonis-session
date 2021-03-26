@@ -1,3 +1,7 @@
+# [1.1.0](https://github.com/adonisjs/adonis-session/compare/v1.0.28...v1.1.0) (2021-03-26)
+
+
+
 <a name="1.0.28"></a>
 ## [1.0.28](https://github.com/adonisjs/adonis-session/compare/v1.0.27...v1.0.28) (2018-10-16)
 
